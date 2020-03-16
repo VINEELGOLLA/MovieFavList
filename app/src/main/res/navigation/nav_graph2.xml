@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/userPage3">
+    <fragment
+        android:id="@+id/userPage3"
+        android:name="com.example.moviefavlist.view.fragments.UserPage"
+        android:label="user_page_fragment"
+        tools:layout="@layout/user_page_fragment" />
+    <fragment
+        android:id="@+id/favlist4"
+        android:name="com.example.moviefavlist.view.fragments.favlist"
+        android:label="favlist_fragment"
+        tools:layout="@layout/favlist_fragment" />
+    <fragment
+        android:id="@+id/userDetail"
+        android:name="com.example.moviefavlist.view.fragments.UserDetail"
+        android:label="user_detail_fragment"
+        tools:layout="@layout/user_detail_fragment" >
+        <action
+            android:id="@+id/action_userDetail_to_mainActivity"
+            app:destination="@id/mainActivity"
+            />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.moviefavlist.view.activities.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

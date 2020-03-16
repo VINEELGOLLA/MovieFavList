@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovieFavList</string>
+
+    <string name="rating">rating: 8.4</string>
+    <string name="date">21 december, 2019</string>
+    <string name="moviename">JOKER</string>
+    <string name="apikey">f1693850078bf7989f7c084671b57a5b</string>
+    <string name="genre">THRILLER | ACTION</string>
+    <string name="overview">During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.</string>
+
+</resources>

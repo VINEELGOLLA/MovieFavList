@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.moviefavlist.view.fragments.Login"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment" >
+        <action
+            android:id="@+id/action_login_to_signUp2"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_login_to_second"
+            app:destination="@id/second"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.moviefavlist.view.fragments.SignUp"
+        android:label="sign_up_fragment"
+        tools:layout="@layout/sign_up_fragment" >
+        <action
+            android:id="@+id/action_signUp_to_second"
+            app:destination="@id/second" />
+    </fragment>
+    <activity
+        android:id="@+id/second"
+        android:name="com.example.moviefavlist.view.activities.Second"
+        android:label="activity_second"
+        tools:layout="@layout/activity_second" />
+</navigation>

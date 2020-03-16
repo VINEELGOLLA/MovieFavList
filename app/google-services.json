@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "997707021317",
+    "firebase_url": "https://moviefavlist.firebaseio.com",
+    "project_id": "moviefavlist",
+    "storage_bucket": "moviefavlist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997707021317:android:bb42e50de4d2bf7699306c",
+        "android_client_info": {
+          "package_name": "com.example.moviefavlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997707021317-7b1jvqkfp0he8npnh0fv1vbtgcl0755h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMNpoyPfqRpsBN34OeJptwr494MyaZDzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997707021317-7b1jvqkfp0he8npnh0fv1vbtgcl0755h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

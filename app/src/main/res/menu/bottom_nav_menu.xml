@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+        android:id="@+id/userPage3"
+        android:title="search">
+
+</item>
+
+    <item
+        android:id="@+id/favlist4"
+        android:title="fav">
+
+    </item>
+
+    <item
+        android:id="@+id/userDetail"
+        android:title="Info">
+
+    </item>
+
+</menu>
